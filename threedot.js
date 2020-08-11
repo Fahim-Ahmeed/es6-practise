@@ -1,0 +1,11 @@
+// let age1=[12,34,56,12,76];
+// const age2=[33,54,65,23,31,45];
+// const age3=[17,26,34,74,26,45];
+// const age=[...age1,...age2,...age3];
+// let business=650;
+// let engineer=1024;
+// let sochib=777;
+// let maxIncome=Math.max(business,engineer,sochib);
+const income=[650,1024,777];
+const maxIncome=Math.max(...income);
+console.log(maxIncome);
